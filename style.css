@@ -1,0 +1,89 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.fond1 {
+    height: 100vh;
+    width: 40vw;
+    background-image: url("img/fond\ vert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: greenyellow;*/
+    position: absolute;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+}
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(221, 16, 16);
+    flex: 0.7;
+
+
+}
+
+.infos {
+    display: flex;
+    border: 1px solid black;
+    flex: 1;
+    color: blanchedalmond;
+}
+.infosperso{
+    display:flex;
+    flex-direction:row
+}
+.logo{
+    display:flex;
+}
+.description{
+    height: 20vh;
+    width: 20vh;
+}
+#logo {
+    max-height: 15vh
+}
+
+#photo {
+    border-radius: 10em;
+
+
+
+
+}
+
+.infos1 {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.infosperso {
+    border: 1px solid rgb(35, 22, 218);
+    flex: 1;
+}
+
+img {
+    width: 100%
+}
+
+p {
+    padding: 10px
+}
+
+h5 {
+    padding: 6px
+}
