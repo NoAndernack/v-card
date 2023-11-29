@@ -42,23 +42,50 @@ body {
     flex: 1;
     color: blanchedalmond;
 }
-.infosperso{
-    display:flex;
-    flex-direction:row
+
+.infosperso {
+    display: flex;
+    flex-direction: column;
+
 }
-.logo{
-    display:flex;
+
+.logo {
+    display: flex;
 }
-.description{
-    height: 20vh;
-    width: 20vh;
+
+.description {
+    height: 40vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50vh;
+    padding-left:5vh
+    
+
 }
+
+.nom {
+    display: flex;
+    
+
+}
+
+.liens {
+    display: flex;
+    order: ;
+
+
+}
+
 #logo {
     max-height: 15vh
 }
 
 #photo {
     border-radius: 10em;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
 
 
 
@@ -76,9 +103,6 @@ body {
     flex: 1;
 }
 
-img {
-    width: 100%
-}
 
 p {
     padding: 10px
@@ -86,4 +110,11 @@ p {
 
 h5 {
     padding: 6px
+}
+
+button {
+    border-radius: 3em;
+    background-color: rgb(223, 151, 151);
+    color: white;
+    border: 0px;
 }
